@@ -1,0 +1,138 @@
+.all{
+    width: 90%;
+}
+.spark{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px;
+    align-items: center;
+    border: 1px solid#C2C2C28F;
+    background-color: white;
+    width: max-content;
+    margin: auto;
+    border-radius: 10px;
+}
+.spark-v2{
+    margin-top: 2px;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btns button{
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+.apps ul{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.apps ul li img{
+    object-fit:contain;
+    background-color: rgba(221, 221, 221, 0.179);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+.video img{
+    height: auto;
+    max-width: 70%;
+}
+
+.benefit-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.bene-box{
+    width: 49%;
+    padding: 10px;
+    border: 1px solid #C2C2C28F;
+    border-radius: 7px;
+}
+
+.bene-box:hover,.cour-box:hover,.testi-box:hover{
+    border: 2.5px solid #ff99004b;
+}
+
+.courses-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.cour-box {
+  width: 48%;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.cour-box .cour-img img{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+.cour-img img{
+    object-fit:fill;
+}
+
+.dura{
+    border: 1px;
+    border-radius: 4px;
+}
+
+.dura:hover{
+    background-color: #ff99004b;
+}
+
+.test-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.testi-box{
+    width: 48%;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.profile{
+    height: 40px;
+    width: 40px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .spark{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .bene-box,.cour-box,.testi-box{
+        width: 100%;
+    }
+}
