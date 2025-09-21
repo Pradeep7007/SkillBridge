@@ -4,7 +4,16 @@ import logo from '../assests/logo.png';
 import linke from '../assests/linke.png';
 import facebook from '../assests/facebook.png';
 import twitter from '../assests/twitter.png';
+import { useNavigate } from 'react-router-dom';
 function Footer() {
+
+    const navigate=useNavigate();
+
+    const handleNavigate=(path)=>{
+           navigate(path); 
+           window.scrollTo(0,0);
+    }
+
   return (
     <div className='d-flex justify-content-between p-4'>
       <div >
@@ -17,12 +26,13 @@ function Footer() {
         <p>Somewhere in world</p>
       </div>
 
-      <div>
-        <h4>Home</h4>
-        <p>Benefits</p>
-        <p>Our Courses</p>
-        <p>Our Testimonials</p>
-        <p>Our Pricing</p>
+      <div className='poin-ter'>
+        <h4>Pages</h4>
+        <p onClick={() => handleNavigate('/')}>Home</p>
+        <p onClick={() => handleNavigate('/')}>Benefits</p>
+        <p onClick={() => handleNavigate('/courses')}>Our Courses</p>
+        <p onClick={() => handleNavigate('/')}>Our Testimonials</p>
+        <p onClick={() => handleNavigate('/price')}>Our Pricing</p>
       </div>
 
       <div>
@@ -34,7 +44,7 @@ function Footer() {
 
       <div>
         <h4>Social Profiles</h4>
-        <div className='d-flex gap-2'>
+        <div className='d-flex gap-2 social'>
             <img src={facebook} alt='logo'
             style={{width:'40px'}}/>
             <img src={linke} alt='logo'

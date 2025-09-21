@@ -50,7 +50,7 @@ function Home() {
             alt='video'
             />
         </div>
-
+        
         <div className='benefits mt-3'>
             <h2 style={{fontWeight:'bold'}}>Benefits</h2>
             <p>Learn at your own pace with flexible, expert-led courses that stay current with industry trends. Build real-world skills through hands-on projects and collaborative learning—everything you need to grow your career in design and development.</p>
