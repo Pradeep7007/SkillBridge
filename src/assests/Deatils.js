@@ -144,3 +144,84 @@ export const testimonial = [
     btntext: "Read full Story",
   },
 ];
+
+export const coursepage = [
+  {
+    title: "Web Design Fundamentals",
+    explanation: "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+    duration: "4 Weeks",
+    level: "Beginner",
+    instructor: "John Smith",
+    img: web,
+    curriculum: [
+      "Introduction to HTML",
+      "Styling with CSS",
+      "Introduction to Responsive Design",
+      "Design Principles for Web",
+      "Building a Basic Website"
+    ]
+  },
+  {
+    title: "UI/UX Design",
+    explanation: "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
+    duration: "6 Weeks",
+    level: "Intermediate",
+    instructor: "Emily Johnson",
+    img: uiux,
+    curriculum: [
+      "Introduction to UI/UX Design",
+      "User Research and Personas",
+      "Wireframing and Prototyping",
+      "Visual Design and Branding",
+      "Usability Testing and Iteration"
+    ]
+  },
+  {
+    title: "Mobile App Development",
+    explanation: "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
+    duration: "8 Weeks",
+    level: "Intermediate",
+    instructor: "David Brown",
+    img: mobile,
+    curriculum: [
+      "Introduction to Mobile App Development",
+      "Fundamentals of Swift Programming (iOS)",
+      "Fundamentals of Kotlin Programming (Android)",
+      "Building User Interfaces",
+      "App Deployment and Testing"
+    ]
+  },
+  {
+    title: "Graphic Design for Beginners",
+    explanation: "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
+    duration: "10 Weeks",
+    level: "Beginner",
+    instructor: "Sarah Thompson",
+    img: graphic,
+    curriculum: [
+      "Introduction to Graphic Design",
+      "Typography and Color Theory",
+      "Layout Design and Composition",
+      "Image Editing and Manipulation",
+      "Designing for Print and Digital Media"
+    ]
+  },
+  {
+    title: "Front-End Web Development",
+    explanation: "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
+    duration: "10 Weeks",
+    level: "Intermediate",
+    instructor: "Michael Adams",
+    img: front,
+    curriculum: [
+      "HTML Fundamentals",
+      "CSS Styling and Layouts",
+      "JavaScript Basics",
+      "Building Responsive Websites",
+      "Introduction to Bootstrap and React"
+    ]
+  }
+];
+
+
+
