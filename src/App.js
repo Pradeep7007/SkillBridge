@@ -5,6 +5,7 @@ import Home from './pages/Home.js';
 import Course from './pages/Course.js';
 import About from './pages/About.js';
 import Price from './pages/Price.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/price' element={<Price/>}/>
     </Routes>
+
+    <hr className='mt-5'/>
+    <Footer/>
     </BrowserRouter>
   );
 }

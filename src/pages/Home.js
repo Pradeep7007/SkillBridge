@@ -116,9 +116,7 @@ function Home() {
         </div>
 
         </div>
-        
-        <hr/>
-        <footer className='text-center mt-3'>&copy;Pradeep</footer>
+    
     </div>
   )
 }
