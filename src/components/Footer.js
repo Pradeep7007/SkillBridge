@@ -15,7 +15,7 @@ function Footer() {
     }
 
   return (
-    <div className='d-flex justify-content-between p-4'>
+    <div className='d-flex justify-content-between p-4 main'>
       <div >
         <img 
         src={logo} 

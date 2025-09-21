@@ -1,6 +1,5 @@
 import React from 'react'
 import Offer from '../components/Offer'
-// import Navbar from '../components/Navbar'
 import spark from '../assests/Icon Container.png'
 import '../pages/Home.css';
 import {apps, benefits,courses,testimonial} from '../assests/Deatils.js';

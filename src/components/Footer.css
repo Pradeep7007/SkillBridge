@@ -1,3 +1,8 @@
 .poin-ter p,.social img{
     cursor: pointer;
 }
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
