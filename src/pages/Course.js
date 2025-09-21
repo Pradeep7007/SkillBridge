@@ -2,12 +2,14 @@ import React from 'react'
 import Offer from '../components/Offer'
 import { coursepage } from '../assests/Deatils.js';
 import './Course.css';
+import Navbar from '../components/Navbar.js';
 
 
 function Course() {
   return (
     <div>
       <Offer/>
+      <Navbar/>
       <div className='container-fluid all'>
 
         <h2 className='text-center mt-3'>Online Courses on

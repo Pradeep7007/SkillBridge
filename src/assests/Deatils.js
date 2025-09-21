@@ -15,6 +15,14 @@ import sara from './sara.png';
 import micheal from './micheal.png';
 import jason from './jason.png';
 import emily from './emily.png';
+import crown from './crown.png';
+import award from './award.png';
+import mask from './mask.png';
+import security from './security.png';
+import key from './key.png';
+import book from './book.png';
+import track from './track.png';
+import alarm from './alaram.png';
 
 export const apps = [
   { img: zapier, name: "Zapier" },
@@ -225,3 +233,67 @@ export const coursepage = [
 
 
 
+export const achievements = [
+  {
+    img: crown,
+    title: 'Trusted by Thousands',
+    explanation: 'We have successfully served thousands of students, helping them unlock their potential and achieve their career goals.',
+  },
+  {
+    img: award,
+    title: 'Award-Winning Courses',
+    explanation: 'Our courses have received recognition and accolades in the industry for their quality, depth of content, and effective teaching methodologies.',
+  },
+  {
+    img: mask,
+    title: 'Positive Student Feedback',
+    explanation: 'We take pride in the positive feedback we receive from our students, who appreciate the practicality and relevance of our course materials.',
+  },
+  {
+    img: security,
+    title: 'Industry Partnerships',
+    explanation: 'We have established strong partnerships with industry leaders, enabling us to provide our students with access to the latest tools and technologies.',
+  },
+];
+
+export const goals = [
+  {
+    img: key,
+    title: 'Provide Practical Skills',
+    explanation: 'We focus on delivering practical skills that are relevant to the current industry demands. Our courses are designed to equip learners with the knowledge and tools needed to excel in their chosen field.',
+  },
+  {
+    img: book,
+    title: 'Foster Creative Problem-Solving',
+    explanation: 'We encourage creative thinking and problem-solving abilities, allowing our students to tackle real-world challenges with confidence and innovation.',
+  },
+  {
+    img: track,
+    title: 'Promote Collaboration and Community',
+    explanation: 'We believe in the power of collaboration and peer learning. Our platform fosters a supportive and inclusive community where learners can connect, share insights, and grow together.',
+  },
+  {
+    img: alarm,
+    title: 'Stay Ahead of the Curve',
+    explanation: 'The digital landscape is constantly evolving, and we strive to stay at the forefront of industry trends. We regularly update our course content to ensure our students receive the latest knowledge and skills.',
+  },
+];
+
+export const plan = [
+  { title: 'Access to selected free courses',
+    avai:'Yes'
+   },
+  { title: 'Limited course materials and resources',
+    avai:'Yes'
+   },
+  { title: 'Basic community support',
+    avai:'Yes' },
+  { title: 'Certification upon completion',
+    avai:'No' },
+  { title: 'Ad-supported platform',
+    avai:'Yes' },
+  { title: 'Access to exclusive Pro forums',
+    avai:'No' },
+  { title: 'Early access to updates',
+    avai:'No' },
+];

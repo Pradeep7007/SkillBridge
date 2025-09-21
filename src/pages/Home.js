@@ -5,11 +5,13 @@ import spark from '../assests/Icon Container.png'
 import '../pages/Home.css';
 import {apps, benefits,courses,testimonial} from '../assests/Deatils.js';
 import video from '../assests/video.png';
+import Navbar from '../components/Navbar.js';
 
 function Home() {
   return (
     <div>
         <Offer/>
+        <Navbar/>
         <div className='container-fluid all'>
 
             <div className='spark'>

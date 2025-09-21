@@ -1,0 +1,48 @@
+.sub{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.sub button{
+    width: 90px;
+    border: 1px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.month{
+    background-color: #FF9500;
+    color: white;
+}
+
+.sub-deatils{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px;
+    border: 1px;
+    margin-top: 20px;
+}
+
+.fea{
+    padding: 2px;
+    border: 1px solid #C2C2C28F;
+    border-radius: 5px;
+}
+
+.price {
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid #C2C2C28F;
+}
+
+.get{
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: #ff9500dc;
+    border: 1px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
